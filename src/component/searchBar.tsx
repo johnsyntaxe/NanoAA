@@ -1,18 +1,10 @@
 import React, {useState} from "react";
+import { _search, _goBack } from "../services/search";
 import {Text, TextInput, View, StyleSheet, TouchableOpacity} from "react-native";
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
 const SearchBar = () => {
   const [search, setSearch] = useState<string>('');
-
-  //function search
-  const _search = () =>{
-    console.log('La valeur entree', search);
-  };
-  //function go back
-  const _goBack = () =>{
-    console.log('<--------- Back');
-  };
 
   return(
     <View style={Styles.searchBarContainer}>
@@ -32,7 +24,7 @@ const SearchBar = () => {
         value={search} 
       />
     </View>
-    <TouchableOpacity onPress={() => _search()} style={Styles.searchBarLeft}>
+    <TouchableOpacity onPress={() => _search(search)} style={Styles.searchBarLeft}>
       <MaterialIcons name="search" size={25} color="#000" />
     </TouchableOpacity>
   </View>
