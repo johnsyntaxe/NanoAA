@@ -1,7 +1,6 @@
 import React from "react";
-import {Text, View, TextInput, StyleSheet} from 'react-native';
+import {View, StyleSheet} from 'react-native';
 import SearchBar from "./searchBar";
-import Style from "./styles";
 import TopBar from "./topBar";
 // import MaterialIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 

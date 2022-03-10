@@ -19,7 +19,8 @@ export default App;
 export const Styles = StyleSheet.create({
   container:{
     flex:1,
-    backgroundColor:"blue"
+    width:"100%",
+    height:"100%",
+    backgroundColor:"#fff"
   }
 })
-
