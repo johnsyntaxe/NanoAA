@@ -21,7 +21,7 @@ export default HeaderComponent;
  const Styles = StyleSheet.create({
   containerHeader: {
     width:"100%",
-    paddingVertical:12,
+    paddingVertical:14,
     paddingHorizontal:15,
     backgroundColor:"#ec1c24",
     borderBottomLeftRadius: 18,
