@@ -1,11 +1,13 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import { Text, View, StatusBar } from 'react-native';
 
 const App = () => {
  
   return (
 		<View>
-			<Text>Je suis sur la pqge d'accueil</Text>
+		<StatusBar
+        hidden={true} />
+			<Text>Je suis sur lacc pqge d'accueil</Text>
 		</View>
   );
 };
