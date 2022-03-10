@@ -1,17 +1,25 @@
 import React from 'react';
-import { Text, View, StatusBar } from 'react-native';
+import {StatusBar, View, StyleSheet } from 'react-native';
+import Home from './src/screens/ux/home';
 
 const App = () => {
- 
+
   return (
-		<View>
-		<StatusBar
-        hidden={true} />
-			<Text>Je suis sur lacc pqge d'accueil</Text>
-		</View>
+    <View style={Styles.container}>
+      <StatusBar
+        hidden={true} /> 
+      <Home/>
+    </View>
   );
 };
 
 
-
 export default App;
+
+export const Styles = StyleSheet.create({
+  container:{
+    flex:1,
+    backgroundColor:"blue"
+  }
+})
+
