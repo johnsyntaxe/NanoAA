@@ -1,17 +1,9 @@
 import React from "react";
 import {Text, View, Image, StyleSheet, ViewProps} from "react-native"
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+import { datas } from "../types/action";
 
-interface Props extends ViewProps {
-	image?: string,
-	city?: string,
-  note?:number,
-  description: string,
-  comment:number,
-  location: string
-}
-
-const Card:React.FC<Props> = ({image, city,  note, description, comment, location}) =>{
+const Card:React.FC<datas> = ({poster_path, city, commentaire,vote_average, overview, location}) =>{
 
   return(
     <View style={Styles.containerFlatlist}>
@@ -22,7 +14,7 @@ const Card:React.FC<Props> = ({image, city,  note, description, comment, locatio
           style={Styles.imageStyle}
           resizeMode="cover"
           source={{
-            uri: `${image}`,
+            uri: `${poster_path}`,
           }}
         />
       </View>
@@ -39,13 +31,13 @@ const Card:React.FC<Props> = ({image, city,  note, description, comment, locatio
     </View>
     {/* Body */}
     <View style={Styles.descriptionContent}>
-      <Text style={Styles.descriptionText}>{description}</Text>
+      <Text style={Styles.descriptionText}>{overview}</Text>
     </View>
     {/* footer */}
     <View style={Styles.footerList}>
       <View style={Styles.commentContent}>
         <MaterialIcons name="chat" size={20} color="#f0ad4e" />
-        <Text style={Styles.commentText}>{comment} </Text>
+        <Text style={Styles.commentText}>{commentaire} </Text>
       </View>
       <View style={Styles.location}>
         <Text style={Styles.locationText}>{location} </Text>
@@ -87,7 +79,6 @@ const Styles = StyleSheet.create({
 
   descriptionContent:{
     marginVertical:12,
-    backgroundColor:"yellow",
     textAlign:"justify"
   },
   descriptionText:{

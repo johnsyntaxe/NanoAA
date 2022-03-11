@@ -32,7 +32,6 @@ export default {
     display:"flex",
     flexDirection:"row",
     justifyContent:'space-between',
-    backgroundColor:'yellow',
   },
   topBarIconStyle:{
     padding: 5,

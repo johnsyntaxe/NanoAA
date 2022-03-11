@@ -1,15 +1,23 @@
 import React from 'react';
 import {StatusBar, View, StyleSheet } from 'react-native';
+
+//screens
 import Home from './src/screens/ux/home';
+
+//redux
+import {Provider} from 'react-redux';
+import Store from './src/store'
 
 const App = () => {
 
   return (
-    <View style={Styles.container}>
-      <StatusBar
-        hidden={true} /> 
-      <Home/>
-    </View>
+    <Provider store={Store}>
+      <View style={Styles.container}>
+        <StatusBar
+          hidden={true} /> 
+        <Home/>
+      </View>
+    </Provider>
   );
 };
 

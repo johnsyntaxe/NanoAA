@@ -3,7 +3,6 @@ import {Text, View, StyleSheet, TouchableOpacity} from 'react-native'
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
 const TopBar = () => {
-
   const _shop = () =>{
     console.log('click on shop icon');
   };
@@ -17,7 +16,7 @@ const TopBar = () => {
       </View>
       <View style={Styles.topBarContentIcon}>
         <TouchableOpacity onPress={() => _shop()} style={[Styles.topBarIconStyle, {marginRight:10}]}>
-          <MaterialIcons name="search" size={25} color="#e7af5f" />
+          <MaterialIcons name="shop" size={25} color="#e7af5f" />
         </TouchableOpacity>
         <TouchableOpacity onPress={() => _menu()} style={Styles.topBarIconStyle}>
           <MaterialIcons name="menu" size={25} color="#e7af5f" />

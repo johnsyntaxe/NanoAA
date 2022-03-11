@@ -8,6 +8,8 @@ MERGED from /Users/macbookpro/Desktop/React-Native-Projets/NanoAA/android/app/sr
 MERGED from [com.facebook.flipper:flipper:0.99.0] /Users/macbookpro/.gradle/caches/transforms-3/df7b208c45426f45016d16c0c3a6a059/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:8:1-18:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] /Users/macbookpro/.gradle/caches/transforms-3/24c7b3b7628557c2352d51b3335f48b6/transformed/jetified-flipper-network-plugin-0.99.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] /Users/macbookpro/.gradle/caches/transforms-3/d1f78a3bfe608333c8a8682ec4347618/transformed/jetified-flipper-fresco-plugin-0.99.0/AndroidManifest.xml:8:1-15:12
+MERGED from [:react-native-async-storage_async-storage] /Users/macbookpro/Desktop/React-Native-Projets/NanoAA/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_netinfo] /Users/macbookpro/Desktop/React-Native-Projets/NanoAA/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-12:12
 MERGED from [:react-native-vector-icons] /Users/macbookpro/Desktop/React-Native-Projets/NanoAA/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-native:0.67.3] /Users/macbookpro/.gradle/caches/transforms-3/92ad874927ba6226f66e1447581633a4/transformed/jetified-react-native-0.67.3/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/macbookpro/.gradle/caches/transforms-3/2440439db2f6d9d5f76a90648980e461/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -152,6 +154,10 @@ MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] /Users/macbookp
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.99.0] /Users/macbookpro/.gradle/caches/transforms-3/24c7b3b7628557c2352d51b3335f48b6/transformed/jetified-flipper-network-plugin-0.99.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] /Users/macbookpro/.gradle/caches/transforms-3/d1f78a3bfe608333c8a8682ec4347618/transformed/jetified-flipper-fresco-plugin-0.99.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.99.0] /Users/macbookpro/.gradle/caches/transforms-3/d1f78a3bfe608333c8a8682ec4347618/transformed/jetified-flipper-fresco-plugin-0.99.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-async-storage_async-storage] /Users/macbookpro/Desktop/React-Native-Projets/NanoAA/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] /Users/macbookpro/Desktop/React-Native-Projets/NanoAA/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] /Users/macbookpro/Desktop/React-Native-Projets/NanoAA/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] /Users/macbookpro/Desktop/React-Native-Projets/NanoAA/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-vector-icons] /Users/macbookpro/Desktop/React-Native-Projets/NanoAA/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-vector-icons] /Users/macbookpro/Desktop/React-Native-Projets/NanoAA/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-native:0.67.3] /Users/macbookpro/.gradle/caches/transforms-3/92ad874927ba6226f66e1447581633a4/transformed/jetified-react-native-0.67.3/AndroidManifest.xml:5:5-7:41
@@ -266,5 +272,11 @@ ADDED from /Users/macbookpro/Desktop/React-Native-Projets/NanoAA/android/app/src
 		ADDED from /Users/macbookpro/Desktop/React-Native-Projets/NanoAA/android/app/src/debug/AndroidManifest.xml:11:19-83
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.99.0] /Users/macbookpro/.gradle/caches/transforms-3/df7b208c45426f45016d16c0c3a6a059/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
+MERGED from [:react-native-community_netinfo] /Users/macbookpro/Desktop/React-Native-Projets/NanoAA/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-76
+MERGED from [:react-native-community_netinfo] /Users/macbookpro/Desktop/React-Native-Projets/NanoAA/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-76
 	android:name
 		ADDED from [com.facebook.flipper:flipper:0.99.0] /Users/macbookpro/.gradle/caches/transforms-3/df7b208c45426f45016d16c0c3a6a059/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-community_netinfo] /Users/macbookpro/Desktop/React-Native-Projets/NanoAA/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [:react-native-community_netinfo] /Users/macbookpro/Desktop/React-Native-Projets/NanoAA/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76

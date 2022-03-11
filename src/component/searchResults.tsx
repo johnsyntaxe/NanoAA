@@ -1,40 +1,20 @@
 import React from "react";
-import {Text, View, StyleSheet, FlatList, ScrollView} from 'react-native';
+import {Text, View, StyleSheet, FlatList} from 'react-native';
+
+//component
 import Card from "./card";
 import FilterBar from "./filter";
 
-const SearchResult = () => {
-  const fakeData = [
-    {
-      id:1,
-      aword:6,
-      commentaires: 2,
-      city:"jonathan",
-      location: "Yaounde, Cameroun",
-      description:"Yaounde est une vlle du cameroun",
-      image:"https://reactnative.dev/img/tiny_logo.png"
-    },
-    {
-      id:1,
-      aword:6,
-      commentaires: 2,
-      city:"jonathan",
-      location: "Yaounde, Cameroun",
-      description:"Yaounde est une vlle du cameroun",
-      image:"https://reactnative.dev/img/tiny_logo.png"
-    },
-    {
-      id:1,
-      aword:6,
-      commentaires: 2,
-      city:"jonathan",
-      location: "Yaounde, Cameroun",
-      description:"Yaounde est une vlle du cameroun",
-      image:"https://reactnative.dev/img/tiny_logo.png"
-    },
-  ]
+//redux
+import {useSelector} from 'react-redux';
 
-    
+//local storage
+import localStorage from '../services/localStrorage';
+
+const SearchResult = () => {
+  const {saveData} = useSelector((state) => state);
+  //localStorage.get('data_user').then((response)=>{};
+  
   return(
     <View style={Styles.container}>
       {/* filter bar */}
@@ -42,7 +22,7 @@ const SearchResult = () => {
       {/* list Results */}
       <View>
         <FlatList
-          data={fakeData}
+          data={saveData.data}
           keyExtractor={(item, index) => `key-${index}`}
           ListHeaderComponent={() => (
             <View style={Styles.listResultsTitle}>
@@ -55,11 +35,11 @@ const SearchResult = () => {
           )}
           renderItem={({ item }) => (
             <Card 
-              image={item.image}
+              poster_path={item.poster_path}
               city={item.city}
-              note={item.aword}
-              description={item.description}
-              comment={item.commentaires}
+              vote_average={item.vote_average}
+              overview={item.overview}
+              commentaire={item.commentaire}
               location={item.location} 
             />
           )}
